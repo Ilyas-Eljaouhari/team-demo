@@ -23,3 +23,8 @@ public class HelloController {
         return Map.of("status", "UP");
     }
 }
+    @GetMapping("/echo")
+    public String echo(String msg) {
+        return msg;
+    }
+}
