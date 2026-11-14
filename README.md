@@ -8,3 +8,4 @@ Mohamed Bellouch: member 2 on /health.
 
 - `GET /health` — Checks application health and returns `{"status":"UP"}` when the application is running.
 - `GET /info` — Returns the application name and version.
+-  `GET /echo` — Checks application msg value and returns it when the application is running.
