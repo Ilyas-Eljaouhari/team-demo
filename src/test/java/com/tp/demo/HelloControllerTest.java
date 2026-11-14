@@ -17,4 +17,8 @@ class HelloControllerTest {
     void testVersion() {
         assertEquals("1.0.0", controller.version());
     }
+     @Test
+    void testEcho() {
+        assertEquals("Hello World", controller.echo("Hello World"));
+    }
 }
