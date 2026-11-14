@@ -15,4 +15,9 @@ public class HelloController {
     public String version() {
         return "1.0.0";
     }
+
+    @GetMapping("/echo")
+    public String echo(String msg) {
+        return msg;
+    }
 }
